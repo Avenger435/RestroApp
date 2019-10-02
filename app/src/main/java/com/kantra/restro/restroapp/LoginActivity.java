@@ -345,6 +345,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             mAuthTask = null;
             showProgress(false);
         }
+
+        protected void onCancelled1() {
+            mAuthTask = null;
+            showProgress(false);
+        }
+
     }
 }
 
